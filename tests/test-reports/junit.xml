@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="F:\project-serkom\karyawan\phpunit.xml" tests="33" assertions="83" errors="0" failures="0" skipped="0" time="2.594153">
+    <testsuite name="Unit" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.008258">
+      <testsuite name="Tests\Unit\ExampleTest" file="F:\project-serkom\karyawan\tests\Unit\ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.008258">
+        <testcase name="test_that_true_is_true" file="F:\project-serkom\karyawan\tests\Unit\ExampleTest.php" line="12" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" assertions="1" time="0.008258"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature" tests="32" assertions="82" errors="0" failures="0" skipped="0" time="2.585895">
+      <testsuite name="Tests\Feature\Auth\AuthenticationTest" file="F:\project-serkom\karyawan\tests\Feature\Auth\AuthenticationTest.php" tests="4" assertions="8" errors="0" failures="0" skipped="0" time="1.157238">
+        <testcase name="test_login_screen_can_be_rendered" file="F:\project-serkom\karyawan\tests\Feature\Auth\AuthenticationTest.php" line="14" class="Tests\Feature\Auth\AuthenticationTest" classname="Tests.Feature.Auth.AuthenticationTest" assertions="1" time="0.767347"/>
+        <testcase name="test_users_can_authenticate_using_the_login_screen" file="F:\project-serkom\karyawan\tests\Feature\Auth\AuthenticationTest.php" line="21" class="Tests\Feature\Auth\AuthenticationTest" classname="Tests.Feature.Auth.AuthenticationTest" assertions="3" time="0.084761"/>
+        <testcase name="test_users_can_not_authenticate_with_invalid_password" file="F:\project-serkom\karyawan\tests\Feature\Auth\AuthenticationTest.php" line="34" class="Tests\Feature\Auth\AuthenticationTest" classname="Tests.Feature.Auth.AuthenticationTest" assertions="1" time="0.241480"/>
+        <testcase name="test_users_can_logout" file="F:\project-serkom\karyawan\tests\Feature\Auth\AuthenticationTest.php" line="46" class="Tests\Feature\Auth\AuthenticationTest" classname="Tests.Feature.Auth.AuthenticationTest" assertions="3" time="0.063651"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\Auth\EmailVerificationTest" file="F:\project-serkom\karyawan\tests\Feature\Auth\EmailVerificationTest.php" tests="3" assertions="6" errors="0" failures="0" skipped="0" time="0.089027">
+        <testcase name="test_email_verification_screen_can_be_rendered" file="F:\project-serkom\karyawan\tests\Feature\Auth\EmailVerificationTest.php" line="17" class="Tests\Feature\Auth\EmailVerificationTest" classname="Tests.Feature.Auth.EmailVerificationTest" assertions="1" time="0.031911"/>
+        <testcase name="test_email_can_be_verified" file="F:\project-serkom\karyawan\tests\Feature\Auth\EmailVerificationTest.php" line="28" class="Tests\Feature\Auth\EmailVerificationTest" classname="Tests.Feature.Auth.EmailVerificationTest" assertions="4" time="0.029327"/>
+        <testcase name="test_email_is_not_verified_with_invalid_hash" file="F:\project-serkom\karyawan\tests\Feature\Auth\EmailVerificationTest.php" line="49" class="Tests\Feature\Auth\EmailVerificationTest" classname="Tests.Feature.Auth.EmailVerificationTest" assertions="1" time="0.027789"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\Auth\PasswordConfirmationTest" file="F:\project-serkom\karyawan\tests\Feature\Auth\PasswordConfirmationTest.php" tests="3" assertions="4" errors="0" failures="0" skipped="0" time="0.318989">
+        <testcase name="test_confirm_password_screen_can_be_rendered" file="F:\project-serkom\karyawan\tests\Feature\Auth\PasswordConfirmationTest.php" line="13" class="Tests\Feature\Auth\PasswordConfirmationTest" classname="Tests.Feature.Auth.PasswordConfirmationTest" assertions="1" time="0.038096"/>
+        <testcase name="test_password_can_be_confirmed" file="F:\project-serkom\karyawan\tests\Feature\Auth\PasswordConfirmationTest.php" line="22" class="Tests\Feature\Auth\PasswordConfirmationTest" classname="Tests.Feature.Auth.PasswordConfirmationTest" assertions="2" time="0.026655"/>
+        <testcase name="test_password_is_not_confirmed_with_invalid_password" file="F:\project-serkom\karyawan\tests\Feature\Auth\PasswordConfirmationTest.php" line="34" class="Tests\Feature\Auth\PasswordConfirmationTest" classname="Tests.Feature.Auth.PasswordConfirmationTest" assertions="1" time="0.254237"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\Auth\PasswordResetTest" file="F:\project-serkom\karyawan\tests\Feature\Auth\PasswordResetTest.php" tests="4" assertions="8" errors="0" failures="0" skipped="0" time="0.222311">
+        <testcase name="test_reset_password_link_screen_can_be_rendered" file="F:\project-serkom\karyawan\tests\Feature\Auth\PasswordResetTest.php" line="15" class="Tests\Feature\Auth\PasswordResetTest" classname="Tests.Feature.Auth.PasswordResetTest" assertions="1" time="0.035466"/>
+        <testcase name="test_reset_password_link_can_be_requested" file="F:\project-serkom\karyawan\tests\Feature\Auth\PasswordResetTest.php" line="22" class="Tests\Feature\Auth\PasswordResetTest" classname="Tests.Feature.Auth.PasswordResetTest" assertions="1" time="0.071571"/>
+        <testcase name="test_reset_password_screen_can_be_rendered" file="F:\project-serkom\karyawan\tests\Feature\Auth\PasswordResetTest.php" line="33" class="Tests\Feature\Auth\PasswordResetTest" classname="Tests.Feature.Auth.PasswordResetTest" assertions="2" time="0.040824"/>
+        <testcase name="test_password_can_be_reset_with_valid_token" file="F:\project-serkom\karyawan\tests\Feature\Auth\PasswordResetTest.php" line="50" class="Tests\Feature\Auth\PasswordResetTest" classname="Tests.Feature.Auth.PasswordResetTest" assertions="4" time="0.074450"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\Auth\PasswordUpdateTest" file="F:\project-serkom\karyawan\tests\Feature\Auth\PasswordUpdateTest.php" tests="2" assertions="8" errors="0" failures="0" skipped="0" time="0.105556">
+        <testcase name="test_password_can_be_updated" file="F:\project-serkom\karyawan\tests\Feature\Auth\PasswordUpdateTest.php" line="14" class="Tests\Feature\Auth\PasswordUpdateTest" classname="Tests.Feature.Auth.PasswordUpdateTest" assertions="4" time="0.060941"/>
+        <testcase name="test_correct_password_must_be_provided_to_update_password" file="F:\project-serkom\karyawan\tests\Feature\Auth\PasswordUpdateTest.php" line="34" class="Tests\Feature\Auth\PasswordUpdateTest" classname="Tests.Feature.Auth.PasswordUpdateTest" assertions="4" time="0.044615"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\Auth\RegistrationTest" file="F:\project-serkom\karyawan\tests\Feature\Auth\RegistrationTest.php" tests="2" assertions="4" errors="0" failures="0" skipped="0" time="0.089810">
+        <testcase name="test_registration_screen_can_be_rendered" file="F:\project-serkom\karyawan\tests\Feature\Auth\RegistrationTest.php" line="13" class="Tests\Feature\Auth\RegistrationTest" classname="Tests.Feature.Auth.RegistrationTest" assertions="1" time="0.043151"/>
+        <testcase name="test_new_users_can_register" file="F:\project-serkom\karyawan\tests\Feature\Auth\RegistrationTest.php" line="20" class="Tests\Feature\Auth\RegistrationTest" classname="Tests.Feature.Auth.RegistrationTest" assertions="3" time="0.046659"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\ExampleTest" file="F:\project-serkom\karyawan\tests\Feature\ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.021240">
+        <testcase name="test_the_application_returns_a_successful_response" file="F:\project-serkom\karyawan\tests\Feature\ExampleTest.php" line="13" class="Tests\Feature\ExampleTest" classname="Tests.Feature.ExampleTest" assertions="1" time="0.021240"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\KaryawanTest" file="F:\project-serkom\karyawan\tests\Feature\KaryawanTest.php" tests="8" assertions="22" errors="0" failures="0" skipped="0" time="0.402632">
+        <testcase name="test_can_create_karyawan" file="F:\project-serkom\karyawan\tests\Feature\KaryawanTest.php" line="22" class="Tests\Feature\KaryawanTest" classname="Tests.Feature.KaryawanTest" assertions="2" time="0.026660"/>
+        <testcase name="test_can_read_karyawan" file="F:\project-serkom\karyawan\tests\Feature\KaryawanTest.php" line="38" class="Tests\Feature\KaryawanTest" classname="Tests.Feature.KaryawanTest" assertions="3" time="0.052854"/>
+        <testcase name="test_can_update_karyawan" file="F:\project-serkom\karyawan\tests\Feature\KaryawanTest.php" line="56" class="Tests\Feature\KaryawanTest" classname="Tests.Feature.KaryawanTest" assertions="6" time="0.082196"/>
+        <testcase name="test_can_delete_karyawan" file="F:\project-serkom\karyawan\tests\Feature\KaryawanTest.php" line="101" class="Tests\Feature\KaryawanTest" classname="Tests.Feature.KaryawanTest" assertions="3" time="0.048363"/>
+        <testcase name="test_cannot_create_karyawan_without_required_fields" file="F:\project-serkom\karyawan\tests\Feature\KaryawanTest.php" line="133" class="Tests\Feature\KaryawanTest" classname="Tests.Feature.KaryawanTest" assertions="2" time="0.052379"/>
+        <testcase name="test_cannot_read_nonexistent_karyawan" file="F:\project-serkom\karyawan\tests\Feature\KaryawanTest.php" line="147" class="Tests\Feature\KaryawanTest" classname="Tests.Feature.KaryawanTest" assertions="1" time="0.043782"/>
+        <testcase name="test_cannot_update_karyawan_without_required_fields" file="F:\project-serkom\karyawan\tests\Feature\KaryawanTest.php" line="161" class="Tests\Feature\KaryawanTest" classname="Tests.Feature.KaryawanTest" assertions="4" time="0.055225"/>
+        <testcase name="test_cannot_delete_nonexistent_karyawan" file="F:\project-serkom\karyawan\tests\Feature\KaryawanTest.php" line="185" class="Tests\Feature\KaryawanTest" classname="Tests.Feature.KaryawanTest" assertions="1" time="0.041174"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\ProfileTest" file="F:\project-serkom\karyawan\tests\Feature\ProfileTest.php" tests="5" assertions="21" errors="0" failures="0" skipped="0" time="0.179091">
+        <testcase name="test_profile_page_is_displayed" file="F:\project-serkom\karyawan\tests\Feature\ProfileTest.php" line="13" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="1" time="0.065351"/>
+        <testcase name="test_profile_information_can_be_updated" file="F:\project-serkom\karyawan\tests\Feature\ProfileTest.php" line="24" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="6" time="0.027556"/>
+        <testcase name="test_email_verification_status_is_unchanged_when_the_email_address_is_unchanged" file="F:\project-serkom\karyawan\tests\Feature\ProfileTest.php" line="46" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="4" time="0.030241"/>
+        <testcase name="test_user_can_delete_their_account" file="F:\project-serkom\karyawan\tests\Feature\ProfileTest.php" line="64" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="5" time="0.024082"/>
+        <testcase name="test_correct_password_must_be_provided_to_delete_account" file="F:\project-serkom\karyawan\tests\Feature\ProfileTest.php" line="82" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="5" time="0.031862"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
